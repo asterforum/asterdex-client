@@ -354,7 +354,7 @@ bitcoinShort15x();
 
 ### More Examples Available
 
-Comprehensive examples are available in the [GitHub repository](https://github.com/asterdex/asterdex-client-js/tree/main/examples):
+Comprehensive examples are available in the [GitHub repository](https://github.com/asterdex/asterdex-client/tree/main/examples):
 
 **Core Examples:**
 - **`basic-usage.js`** - Basic API functionality and balance checking
@@ -377,8 +377,8 @@ Comprehensive examples are available in the [GitHub repository](https://github.c
 
 To use the examples, clone the repository:
 ```bash
-git clone https://github.com/asterdex/asterdex-client-js.git
-cd asterdex-client-js
+git clone https://github.com/asterdex/asterdex-client.git
+cd asterdex-client
 npm install
 node examples/bitcoin-short-safe.js
 ```
@@ -514,7 +514,7 @@ MIT
 
 ## Support
 
-- GitHub Issues: [https://github.com/asterdex/asterdex-client-js/issues](https://github.com/asterdex/asterdex-client-js/issues)
+- GitHub Issues: [https://github.com/asterdex/asterdex-client/issues](https://github.com/asterdex/asterdex-client/issues)
 - Documentation: [https://docs.asterdex.com](https://docs.asterdex.com)
 
 ## Contributing
