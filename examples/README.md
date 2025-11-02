@@ -98,7 +98,8 @@ This directory contains practical examples showing how to use the AsterDEX API c
 
 1. **Set up your API credentials**:
    ```bash
-   cp .env.example .env
+   ASTERDEX_API_KEY=your_api_key_here
+   ASTERDEX_API_SECRET=your_api_secret_here
    # Edit .env with your API credentials
    ```
 
