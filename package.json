@@ -1,0 +1,56 @@
+{
+  "name": "asterdex-client",
+  "version": "1.0.0",
+  "description": "Official AsterDEX API client for Node.js - Futures trading with TypeScript support",
+  "main": "index.js",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "src/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0",
+    "prepublishOnly": "npm run test"
+  },
+  "keywords": [
+    "asterdex",
+    "cryptocurrency",
+    "trading",
+    "futures",
+    "api",
+    "client",
+    "bitcoin",
+    "crypto",
+    "defi"
+  ],
+  "author": "AsterDEX",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "dotenv": "^16.3.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asterdex/asterdex-client-js"
+  },
+  "bugs": {
+    "url": "https://github.com/asterdex/asterdex-client-js/issues"
+  },
+  "homepage": "https://github.com/asterdex/asterdex-client-js#readme"
+}
